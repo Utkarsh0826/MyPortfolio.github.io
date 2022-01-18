@@ -1,0 +1,392 @@
+body{
+    color: rgb(196, 191, 191);
+    margin: 0;
+    background-color: rgb(49, 47, 47);
+    
+}
+.home{
+    font-size: 7vw;
+    margin-top: 25%;
+    text-align: center;
+    animation: type 5s ;
+}
+.top{
+    
+    display: flex;
+}
+.heading{
+    text-align: center;
+    color: rgb(192, 191, 191);
+    font-size:5vw;
+    margin-top: 1%;
+    
+}
+.Basic{
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+    width: 25%;
+    height:fit-content;
+    
+   
+    
+}
+.headingleft{
+    text-align: center;
+    color: rgb(196, 192, 192);
+    font-size: 3vw;
+    
+}
+#Photo{
+    width: 50%;
+    padding: 5%;
+    border-radius: 50%;
+    border-style: solid;
+}
+.intro{
+    margin-top: -1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.content{
+    margin: 15% 15% 15% 15%;
+    font-size: 2.5vw;
+    border-spacing: 0 20px;
+    animation: move 1s;
+}
+.content2{
+    margin: -20% 15% 15% 15%;
+    font-size: 2.5vw;
+    border-spacing: 0 20px;
+    animation: move 1s;
+}
+ .content th, td {
+     
+    border: 3px solid rgb(117, 115, 115);
+    padding: 1vw;
+    width: 2000px;
+}
+.content2 th, td {
+     
+    border: 3px solid rgb(117, 115, 115);
+    padding: 1vw;
+    width: 2000px;
+}
+.Basic tr{
+    background-color: rgb(49, 47, 47);
+    animation: opacity 6s;
+}
+
+#aboutme a{
+    color: rgb(49, 47, 47);
+    
+}
+#aboutme {
+    background-color: white;
+    
+}
+
+.content a{
+    color: rgb(196, 191, 191);
+    text-decoration: none;
+}
+.content2 a{
+    color: rgb(196, 191, 191);
+    text-decoration: none;
+}
+.content a:hover{
+    color: rgb(255, 255, 255);
+}
+.content2 a:hover{
+    color: rgb(255, 255, 255);
+}
+.detail{
+ background-color: rgb(49, 47, 47);
+ width: 75%;
+ margin-top: 2%;
+}
+.topic{
+    text-align: center;
+    font-size: 4vw;
+    border-style: dashed;
+}
+.inside{
+    border-style: groove;
+    padding: 2.5vw;
+    margin: 1vw 3.5vw 0 3.5vw;
+    line-height: 170%;
+    word-spacing:10px;
+}
+.border{
+    border-style: groove;
+    margin: 1vw 3.5vw 0 3.5vw;
+}
+.society1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.ecelllogo{
+    padding:1vw ;
+    border-style: groove;
+    border-radius: 25%;
+    margin-left: 20%;
+    width: 35%;
+    
+}
+.arrange{
+    margin-left: 29%;
+}
+.arrange img{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.fblogo:hover{
+    background-color: black;
+    padding: 1%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+}
+.instalogo:hover{
+    background-color: black;
+    padding: 1%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20%;
+}
+.linkedinlogo:hover{
+    background-color: black;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+}
+
+.ecellwrite{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2.5vw;
+    margin-right: 20%;
+}
+.society2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+}
+.ieeelogo{
+    
+    border-style: groove;
+    border-radius: 25%;
+    margin-right: 20%;
+    width: 39%;
+}
+.ieeewrite{
+    
+    font-size: 2.5vw;
+    margin-left: 5%;
+    margin-right: 18vw;
+}
+.leftwrite{
+    margin-left: 5%;
+}
+.links img{
+margin-top: 3%;
+margin-left: 3%;
+}
+.socialmedia img{
+    margin-left: 13%;
+}
+.phone img{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.skill{
+    font-family: 'Gill Sans', sans-serif;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    width: 80%;
+    color: #fff;
+
+}
+.skill li{
+    margin: 15px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgb(0, 0, .3);
+    border-radius: 10px;
+    overflow:hidden
+}
+
+.html{
+    background: #708cc9;
+    display: block;
+    height: 20px;
+    width:80% ;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: html 3s;
+    
+}
+.css{
+    background: #708cc9;
+    display: block;
+    height: 20px;
+    width:60% ;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: css 3s;
+}
+.js{
+    background: #708cc9;
+    display: block;
+    height: 20px;
+    width:10% ;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: js 3s;
+}
+.java{
+    background: #708cc9;
+    display: block;
+    height: 20px;
+    width:30% ;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.ps{
+    background: #708cc9;
+    display: block;
+    height: 20px;
+    width:70% ;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 10%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes ps{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes colour{
+    0%{
+        color: rgb(192, 191, 191);
+    }
+    25%{
+        color: rgb(139, 194, 88);
+    }
+    50%{
+        color: rgb(187, 102, 102);
+    }
+    75%{
+        color: rgb(138, 90, 184);
+    }
+    100%{
+        color: rgb(192, 191, 191);
+    }
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes type{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes move{
+    from{
+        margin-left: -70%;
+    }
+    
+}
+@media screen and (max-width: 630px){
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .home{
+        margin-top: -5%;
+    }
+    .Basic{
+        width: 100%;
+    }
+    .content{
+        margin: 0 0% 0 0%;
+       font-size: 5vw;
+       }
+       .content2{
+        margin: 0% 0% 0 0%;
+       font-size: 5vw;
+       }
+    .detail{
+        margin-left: 15%;
+    }
+    #Photo{
+        width: 30%;
+        margin-bottom: 15px;
+        padding: 3%;
+        margin-top: -2.5%;
+    }
+    .headingleft{
+        font-size: 30px;
+    }
+    .heading{
+        opacity: 0;
+    }
+    .topic{
+        font-size: 30px;
+        margin-top: -8%;
+        
+    }
+    .tables{
+        display: flex;
+    }
+    
+} 
